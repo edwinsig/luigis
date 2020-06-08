@@ -6,9 +6,9 @@
     <title>LuigiAcServices</title>
     <link rel="icon" href="images/luigis_logo.jpg" type="image/jpg">
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
-    <!-- <link rel="stylessheet" href="css/media.css" media = "screen and (max-width:768px)" > -->
+    <link rel="stylessheet" href="css/media.css" media = "screen and (max-width:768px)">
     <link rel="stylesheet" href="css/styles.css">
-    <!-- <script type="text/javascript" src="js/scripts.js"></script> -->
+   
     
 </head>
 <body>
@@ -18,14 +18,14 @@
             <figure class="logo">
                 <img height="90px" src="images/luigis_logo.jpg" alt="Luigi's Logo">
             </figure>        
-            <h6>Luigi's AC Services <br> Call us 24/7 - (954)638-2854 / (772)227-9004  </h6>
+            <h6>Luigi's AC Services <br><br> Call us 24/7 - (954)638-2854 / (772)227-9004  </h6>
             <nav class="menu">
              <ol>
                 <li>
                     <a class="link" href="#portfolio">About</a>
                 </li>
                 <li>
-                    <a class="link" href="#events">Reviews</a>
+                    <a class="link" href="#review">Reviews</a>
                 </li>
                 <li>
                     <a class="link" href="#contactus">Contact Us</a>
@@ -35,58 +35,17 @@
         </div>       
     </header>
     <section class="hero">
-        <div class="container hero">
+        <div class="container">
             <!-- <h1>
                 Hi! this is <strong>Edwin</strong> <br/>
                  <strong>Software</strong> Engineer <br/>
                   with passion for <strong>Coaching</strong><br/>
             </h1> -->
-            <img class="hero-image" src="images/luigis_logo_original.jpeg" height="300px">
+            <img class="hero-image" src="images/luigis_logo_original.jpeg" height="300">
            
         </div>
                
     </section>
-    <!-- <section class="portfolio" id="portfolio"> 
-        <div class="container">
-        <h2>Portfolio (Recently Projects)</h2>
-        <article class="project">
-            <div class="project_details">
-                <h3 class="project_title">Improve Data Processing</h3>
-                <h6 class="project_course"> Migrate many old MS Access DBs to Sql Server </h6>
-                <p class="project_date"><small><strong>Date:</strong> 01/01/2019</small></p>
-                <p class="project_url"><small><strong>Take a look on:</strong> www.edwinromero.com/</small></p>
-                <p class="project_description">This project was the result of 3 month of work, to create new DBs including Queries, Views, Stored Procedures, CTE, etc.</p>
-            </div>
-            <figure class="project_imageContainer">
-                <img class="project_image" src="images/project_db.jpg" alt="Project #1" width="400px" height="400px">
-            </figure>
-        </article>
-        <article class="project">
-            <div class="project_details">
-                <h3 class="project_title">SSRS Reports</h3>
-                <h6 class="project_course"> Build Queries and Reports with SSRS </h6>
-                <p class="project_date"><small><strong>Date:</strong> 07/01/2019</small></p>
-                <p class="project_url"><small><strong>Take a look on:</strong> www.edwinromero.com/</small></p>
-                <p class="project_description">This project was the result of 1 month of work, to create the new reports for managers based on SSRS</p>
-            </div>
-            <figure class="project_imageContainer">
-                <img class="project_image" src="images/project_ssrs.jpg" alt="Project #2" >
-            </figure>
-        </article>
-        <article class="project">
-            <div class="project_details">
-                <h3 class="project_title">Portfolio</h3>
-                <h6 class="project_course"> My Website </h6>
-                <p class="project_date"><small><strong>Date:</strong> 04/15/2020</small></p>
-                <p class="project_url"><small><strong>Take a look on:</strong> www.edwinromero.com/</small></p>
-                <p class="project_description">This project was the result of 1 month of work, to create my portfolio website</p>
-            </div>
-            <figure class="project_imageContainer">
-                <img class="project_image" src="images/project_portfolio.jpg" alt="Project 3" width="500px" height="300px" >
-            </figure>
-        </article>
-    </div>
-    </section> -->
     
 
     <div class="container">
@@ -101,8 +60,8 @@
             </figure>   
             <div class="event_detail">                        
                 <!-- <h3 class="event_title">Installations</h3> -->
-                <p class="event_description">New Installations</p>
-                <a class="event_url" href="">Take a look</a>
+                <p class="event_description"><strong>New Installations</strong></p>
+                <a class="event_url" href="installations.html#events">Take a look</a>
             </div>
         </article>
 
@@ -112,8 +71,8 @@
             </figure>   
             <div class="event_detail">                        
                 <!-- <h3 class="event_title">Installations</h3> -->
-                <p class="event_description">Repairs</p>
-                <a class="event_url" href="">Take a look</a>
+                <p class="event_description"><strong>Repairs</strong></p>
+                <a class="event_url" href="installations.html#events-repairs">Take a look</a>
             </div>
         </article>
         <article class="event">
@@ -122,8 +81,8 @@
             </figure>   
             <div class="event_detail">                        
                 <!-- <h3 class="event_title">Installations</h3> -->
-                <p class="event_description">Maintenance</p>
-                <a class="event_url" href="">Take a look</a>
+                <p class="event_description"><strong>Maintenance</strong></p>
+                <a class="event_url" href="installations.html#events-maintenance">Take a look</a>
             </div>
         </article>
              
@@ -144,15 +103,26 @@
         </div>
        
     </article>
-    <article class="project-review">
+    
+        <article class="project review" id="review">
         
-        <div class="project_details-review">
-            <h5 class="project_course"> I usually don’t give reviews, however this time I decided to recognized a job well done. From my first contact with Luigi he was courteous and very specific <br> Jorge Silva</h5>
-          
+        
+            <div class="project_details review">
+            <h5 class="project_course"> I usually don’t give reviews, however this time I decided to recognized a job well done. From my first
+                 contact with Luigi he was courteous and very specific. He explained everything that he was going to do in terms regular people
+                  can understand. He was very quick and always on time. Who can live without AC in Florida? After he did a fantastic job at my 
+                  house I recommended him to the company that I work for. He replaced a couple of units and now he provides ongoing maintenance.
+                   We are very pleased with his job <br><br> Jorge Silva</h5>
+
+                   <h5 class="project_course"> <br><br> Luigi’s A/C was here within minutes of calling and gave me an estimate, permitted, 
+                    and installed a whole new system with 10 year warranty the next business day. He came back to install a new smart thermostat
+                     I had purchased a few days later and we are all set with a beautiful new system for the next 10+ years <br><br> Aaron Barnes</h5>
+
+                           
         </div>
 
         <figure class="project_imageContainer">
-            <img class="project_image" src="images/reviews.jpg" alt="Project #1" width="500px" height="420px">
+            <img class="project_image" src="images/reviews.jpg" alt="Reviews" width="500px" height="420px">
         </figure>
        
     </article>
@@ -161,10 +131,15 @@
 
     <section id="contactus" class="contact">
         <form action="/suscription/" class="form-email">
-            <h3>Get in Touch</h3>
+            <h3>Get in Touch</h3> 
+            <h6>Call us 24/7 - (954)638-2854 / (772)227-9004  </h6>
+            <input type="text" placeholder="Send your email" value="Name">
+            <input type="text" placeholder="Send your email" value="Comments">
             <input type="text" placeholder="Send your email" value="@gmail.com">
             <button>Submmit</button>
+            
         </form>
+        
         <div class="social">
             <a href="https://twitter.com/luigiacservices" class="social-link twitter"></a>
             <a href="https://www.facebook.com/luigiacservices" class="social-link facebook"></a>

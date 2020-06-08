@@ -129,6 +129,7 @@ h3 {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    color: #FFFFFF;
   }
 
   .project-review{
@@ -142,6 +143,8 @@ h3 {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    color: white;
+  
   }
 
 .project_title {
@@ -171,10 +174,10 @@ h3 {
        
     
 }
-.project_details-review{
-  width: 45%;
+.review{
+  /* width: 45%; */
   background: #0C395A;
-     
+  overflow: visible;
   
 }
 
@@ -309,11 +312,12 @@ figure {
       .contact {
         background-color: #0C395A;
         color: white;
-        height: 150px;
+        height: 180px;
         display: flex;
         align-items: center;
         justify-content: space-between;
         flex-wrap: wrap;
+        padding: 0px 175px 10px 175px;
       }
 
     .social {
@@ -409,8 +413,7 @@ figure {
         }
 
         .hero-image {
-          position: absolute;
-          z-index: 1;
+          /* position: absolute; */
           left: 0;
           right: 0;
           top: 0;
@@ -426,13 +429,19 @@ figure {
       }
       @media screen and (max-width: 767px){
 
+        .review {
+          padding: 5px;
+          font-size: 10px;
+        }
+
+
         .burger-button {
           display: block;
         }
 
         .menu {
           position: fixed;
-          background: rgba(40, 32, 140, 0.86);
+          background: rgba(12, 57, 90, 0.86);
           z-index: 3;
           top: 0;
           left: -100vw;
