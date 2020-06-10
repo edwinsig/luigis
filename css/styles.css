@@ -1,17 +1,3 @@
-/*reglas  estan conformadas por ele conjunto entre
-selectores es como identificamos un elemento html
-declaraciones lo que gacemos con ese selector
-propiedades lo que hacemos con eso en particular
-valores */
-
-/* el selector mas basico es el selector de etiqueta
-el segundo es el selector descendente, selector hijo 
-y el tercero de clase o de id's que se identifica con un .*/
-
-/*header {
-    background: blue;
-    28208C
-}*/
 
 @font-face {
   font-family: 'icomoon';
