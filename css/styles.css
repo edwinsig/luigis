@@ -434,6 +434,10 @@ figure {
       }
       @media screen and (max-width: 767px){
 
+        .hero {
+          display: none;
+        }
+
         .review {
           padding: 5px;
           font-size: 10px;
