@@ -79,9 +79,7 @@ h2 {
     font-weight: bold;
     font-size: 24px;
     margin-bottom: 40px;
-    
-
-}
+  }
 
 .even-list-title-24 {
  text-align: center;
@@ -92,10 +90,15 @@ h3 {
 }
 
 .portfolio {
-    background: #fafafa;
+    
     padding: 0;
 
+}
 
+
+.map {
+  width: 1000px;
+  display: block;
 }
 
 /* .project {
@@ -148,6 +151,7 @@ h3 {
 .project_date, 
 .project_url {
     margin: 10px;
+    padding: 5px;
     
 }
 
@@ -419,6 +423,11 @@ figure {
 
       }
       @media screen and (max-width: 767px){
+
+        .map {
+          width: auto;
+          display: block;
+        }
 
         .hero {
           display: none;
